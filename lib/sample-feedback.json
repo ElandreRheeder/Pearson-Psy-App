@@ -1,0 +1,86 @@
+{
+  "in_scope": true,
+  "scope_message": "",
+  "question_detected": "Evaluate the multi-store model of memory (Atkinson and Shiffrin, 1968). (8)",
+  "question_type": "AO1/AO3",
+  "unit": "WPS01 — Topic B: Cognitive psychology",
+  "estimated_level": 2,
+  "estimated_mark": 4,
+  "ao1_estimate": 3,
+  "second_ao_label": "AO3",
+  "second_ao_estimate": 1,
+  "headline": "Your description is good, but your evaluation is a list of points with no explanation, and there is no conclusion. Explain why each point matters for the model, then finish with a balanced judgement.",
+  "what_went_well": [
+    "You named all three stores and explained how information moves between them (attention and rehearsal).",
+    "You used capacity and duration figures that match the specification.",
+    "You chose good evaluation evidence: HM, Miller (1956) and the working memory model."
+  ],
+  "structure": {
+    "verdict": "One AO1 paragraph followed by three short AO3 points. The AO1 is longer and more developed than the AO3, so the answer is unbalanced. There is no conclusion.",
+    "paragraphs": [
+      { "number": 1, "opening_words": "The multi-store model of memory was made", "role": "AO1", "comment": "Clear description of the stores and processes. Fix the LTM encoding error (see fact check) and add encoding for STM (mainly acoustic)." },
+      { "number": 2, "opening_words": "One strength is that there is evidence", "role": "AO3", "comment": "Good evidence, but 'This supports the model' is not a chain of reasoning. Explain which part of the model HM supports (separate STM and LTM stores)." },
+      { "number": 3, "opening_words": "Another strength is Miller (1956) who found", "role": "AO3", "comment": "This repeats AO1 detail. Say what it shows: STM has a limited capacity, as the model predicts." },
+      { "number": 4, "opening_words": "A weakness is that the model is", "role": "AO3", "comment": "Your best point, but two ideas are squeezed together. Split it into two developed weaknesses and explain what each means for the model." }
+    ],
+    "suggested_plan": [
+      "AO1 (about 4 sentences): stores, attention and rehearsal, capacity, duration and encoding of STM and LTM.",
+      "AO3 strength: HM shows STM and LTM are separate stores → so the model's structure is supported.",
+      "AO3 weakness: KF had damaged STM but intact LTM → information did not have to pass through STM, so the model's linear flow is too simple.",
+      "AO3 competing argument: the working memory model shows STM has several components → the MSM's single STM store is oversimplified.",
+      "Conclusion: useful early model that is supported on separate stores, but too simple about STM and LTM, so it is an incomplete explanation."
+    ]
+  },
+  "ao1": {
+    "comment": "Mostly accurate knowledge of the stores and processes. One factual error about LTM encoding.",
+    "missing": [
+      "Encoding in STM (mainly acoustic) and LTM (mainly semantic).",
+      "Duration of LTM (potentially a lifetime) and modality-specific sensory register."
+    ],
+    "improvements": [
+      "Change 'LTM encodes information acoustically' to 'LTM mainly encodes information semantically (by meaning)'.",
+      "Add one sentence on the sensory register: it holds information from each sense very briefly in its original form."
+    ]
+  },
+  "second_ao": {
+    "comment": "Your AO3 points are relevant but undeveloped. Each one names evidence without explaining what it shows about the model.",
+    "chains_of_reasoning": "No point has a full chain. Add 'this shows that...' and 'therefore the model...' to each point.",
+    "competing_arguments": "You mention the working memory model, which is a good competing explanation. Explain how it differs: it splits STM into the central executive, phonological loop, visuo-spatial sketchpad and episodic buffer.",
+    "missing": [
+      "The KF case study as a weakness (damaged STM but working LTM).",
+      "A conclusion that weighs strengths against weaknesses."
+    ],
+    "improvements": [
+      "Turn the HM point into a full chain: evidence → what it shows → what it means for the model.",
+      "Split the last paragraph into two developed weaknesses (working memory model; mirror drawing shows different types of LTM)."
+    ]
+  },
+  "conclusion": {
+    "present": false,
+    "comment": "There is no conclusion. Level 3 and 4 answers need a judgement that answers 'evaluate'.",
+    "improvement": "Overall, the multi-store model is supported by evidence such as HM that STM and LTM are separate stores. However, KF and the working memory model show it is too simple, so it is a useful starting point but an incomplete explanation of memory."
+  },
+  "fact_checks": [
+    { "claim": "LTM encodes information acoustically.", "verdict": "incorrect", "explanation": "In the multi-store model, LTM mainly encodes semantically (by meaning). STM mainly encodes acoustically." },
+    { "claim": "HM had his amygdala removed.", "verdict": "incorrect", "explanation": "HM had parts of his medial temporal lobes removed, including most of his hippocampus, to treat epilepsy. Say 'hippocampus' to stay accurate." },
+    { "claim": "STM has a capacity of 7 plus or minus 2 items (Miller, 1956).", "verdict": "correct", "explanation": "This matches the specification content and mark scheme." }
+  ],
+  "top_tips": [
+    "Make your AO3 as long as your AO1. The marks are 4 and 4.",
+    "End every evaluation point with 'This means the model...' to link it back to the question.",
+    "Use one competing explanation (the working memory model) and explain the difference, not just name it.",
+    "Always write a two-sentence conclusion that weighs strengths against weaknesses.",
+    "Check key facts: STM acoustic, LTM semantic; HM's hippocampus."
+  ],
+  "model_paragraph": {
+    "original_summary": "One strength is that there is evidence from HM ... This supports the model.",
+    "improved": "One strength is that the case of HM supports the idea of separate STM and LTM stores. After most of his hippocampus was removed, HM could not form new long-term memories, but his short-term memory was still normal. This means STM and LTM must be separate, because damage to one did not stop the other working. Therefore, HM supports the multi-store model's claim that memory has distinct stores."
+  },
+  "next_steps": [
+    "Correct the LTM encoding error.",
+    "Correct the HM brain area to the hippocampus.",
+    "Rewrite each AO3 point as point → evidence → explain → link.",
+    "Add KF as a weakness.",
+    "Add a balanced conclusion."
+  ]
+}

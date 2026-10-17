@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>8-Mark Coach</title>
+<meta name="description" content="Feedback on Pearson Edexcel International A Level Psychology 8-mark answers: structure, AO1 and AO3, and fact checks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div>
+      <p class="eyebrow">Pearson Edexcel International A Level Psychology</p>
+      <h1>8-Mark Coach</h1>
+      <p class="lede">Upload an 8-mark answer and get examiner-style feedback on structure, AO1 and AO3, and factual accuracy, using the Pearson IAL level descriptors.</p>
+    </div>
+    <ul class="paper-codes" aria-label="Papers covered">
+      <li>WPS01</li><li>WPS02</li><li>WPS03</li><li>WPS04</li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <section class="panel input-panel" aria-labelledby="step-answer">
+    <h2 id="step-answer"><span class="step">1</span> Your answer</h2>
+
+    <div class="field-row">
+      <div class="field">
+        <label for="unit">Paper</label>
+        <select id="unit">
+          <option value="">Choose your paper…</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="past">Past paper question (optional)</label>
+        <select id="past">
+          <option value="">My own question</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="question">Exam question</label>
+      <textarea id="question" rows="2" placeholder="e.g. Evaluate the multi-store model of memory (Atkinson and Shiffrin, 1968). (8)"></textarea>
+      <p class="hint" id="qtype-hint">Paste the full question, including any scenario. If your file starts with the question, it is filled in for you.</p>
+    </div>
+
+    <div class="dropzone" id="dropzone">
+      <input type="file" id="file" accept=".docx,.pdf,.txt" class="visually-hidden">
+      <label for="file" class="drop-label">
+        <strong>Upload a Word or PDF file</strong>
+        <span>Drag it here or click to choose (.docx, .pdf, .txt)</span>
+      </label>
+      <p class="file-status" id="file-status" role="status"></p>
+    </div>
+
+    <div class="field">
+      <div class="label-row">
+        <label for="answer">Answer text</label>
+        <button type="button" class="link-btn" id="sample-btn">Try a sample answer</button>
+      </div>
+      <textarea id="answer" rows="14" placeholder="Your answer appears here after uploading. You can also paste or type it."></textarea>
+      <p class="hint"><span id="wordcount">0 words</span> · Leave a blank line between paragraphs.</p>
+    </div>
+
+    <div class="actions">
+      <button type="button" class="primary" id="mark-btn">Get feedback</button>
+      <p class="scope-note">Pearson Edexcel IAL Psychology only. AQA, OCR and Cambridge answers are not marked.</p>
+    </div>
+
+    <details class="levels">
+      <summary>Pearson 8-mark level descriptors</summary>
+      <div id="levels-body"></div>
+    </details>
+  </section>
+
+  <section class="panel results-panel" aria-labelledby="step-feedback" aria-live="polite">
+    <h2 id="step-feedback"><span class="step">2</span> Feedback</h2>
+
+    <div id="instant" class="instant">
+      <h3>Quick structure check</h3>
+      <p class="muted" id="instant-empty">Upload or paste an answer to see an instant check of length, balance, reasoning, evidence and conclusion.</p>
+      <ul class="checks" id="checks"></ul>
+    </div>
+
+    <div id="loading" class="loading" hidden>
+      <div class="pen" aria-hidden="true"></div>
+      <p>Marking your answer against the Pearson level descriptors. This takes about a minute.</p>
+    </div>
+
+    <div id="error" class="error" role="alert" hidden></div>
+
+    <article id="report" class="report" hidden></article>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <p>Feedback is an estimate to help you redraft. Your teacher's marking and the official Pearson mark scheme always take priority. Check facts against your Pearson Student Book.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

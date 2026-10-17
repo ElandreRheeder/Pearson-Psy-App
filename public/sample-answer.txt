@@ -1,0 +1,9 @@
+Evaluate the multi-store model of memory (Atkinson and Shiffrin, 1968). (8)
+
+The multi-store model of memory was made by Atkinson and Shiffrin in 1968. It says memory has three stores, the sensory register, short-term memory (STM) and long-term memory (LTM). Information goes from the sensory register to STM if we pay attention to it and from STM to LTM by rehearsal. STM has a capacity of 7 plus or minus 2 items and lasts about 18-30 seconds. LTM has unlimited capacity and encodes information acoustically.
+
+One strength is that there is evidence from HM. HM had his amygdala removed and after this he could not make new long-term memories but his short-term memory was fine. This supports the model.
+
+Another strength is Miller (1956) who found that STM can hold 7+/-2 items.
+
+A weakness is that the model is too simple. It says STM is only one store but the working memory model says it has different parts. Also HM could learn mirror drawing so there are different types of LTM.

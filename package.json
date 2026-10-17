@@ -1,0 +1,19 @@
+{
+  "name": "pearson-psy-app",
+  "version": "1.0.0",
+  "description": "Feedback on Pearson Edexcel IAL Psychology 8-mark answers (AO1/AO3 and AO1/AO2)",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0"
+  }
+}
